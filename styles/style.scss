@@ -40,19 +40,19 @@
     }
 
     .art1 {
-        font-size: x-large;
+        font-size: larger;
         margin-top: 75px;
         margin-bottom: 90px;
     }
 
     .art2 {
-        font-size: x-large;
+        font-size: larger;
         margin-top: 75px;
         margin-bottom: 90px;
     }
 
     .art3 {
-        font-size: x-large;
+        font-size: larger;
         margin-top: 75px;
         margin-bottom: 90px;
         margin-right: 20px;
@@ -60,6 +60,78 @@
 
     footer {
         font-family: 'Smooch', cursive;
-        font-size: x-large;
+        font-size: larger;
     }
+}
+
+// Desktop version
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: whitesmoke;
+    color:#1E1014;
+}
+
+h1 {
+    text-align: center;
+}
+
+#tableOfContent {
+    background-color: #f1f1f1;
+    color: #1E1014;
+    width: 250px;
+    height: 200px;
+    opacity: 80%;
+    padding: 1rem;
+    margin-top: 50px;
+    border: solid 3px #FFC145;
+    margin: auto;
+
+    #tocRubrik {
+        text-align: center;
+        font-size: 24px;
+        margin: auto;
+    }
+
+    .navLink {
+        width: 250px;
+        font-size: larger;
+        display: flex;
+        flex-direction: column;
+        margin-block: 20px;
+    }
+}
+
+.art1 {
+    font-size: larger;
+    margin-top: 75px;
+    margin-bottom: 90px;
+    width: 69%;
+    margin: auto;
+
+    #firstImage {
+        max-width: 350px;
+    }
+}
+
+.art2 {
+    font-size: larger;
+    margin-top: 75px;
+    margin-bottom: 90px;
+    width: 69%;
+    margin: auto;
+}
+
+.art3 {
+    font-size: larger;
+    margin-top: 75px;
+    margin-bottom: 90px;
+    margin-right: 20px;
+    width: 69%;
+    margin: auto;
+}
+
+footer {
+    font-family: 'Smooch', cursive;
+    font-size: larger;
 }
